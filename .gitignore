@@ -1,0 +1,28 @@
+# Compiled binaries and build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python environment and cache folders
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Downloaded HuggingFace model cache weights (very important to keep out of Git!)
+models/
+huggingface_cache/
+*.bin
+*.safetensors
+*.pt
+
+# System configurations
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
